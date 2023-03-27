@@ -1,0 +1,25 @@
+{
+  "name": "@maxmorozoff/drive-sync",
+  "version": "1.0.0",
+  "description": "Sync Google Drive",
+  "main": "src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmorozoff/drive-sync.git"
+  },
+  "keywords": [
+    "google",
+    "drive",
+    "sync"
+  ],
+  "author": "Max Morozov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxmorozoff/drive-sync/issues"
+  },
+  "homepage": "https://github.com/maxmorozoff/drive-sync#readme"
+}
