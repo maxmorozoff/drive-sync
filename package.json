@@ -1,11 +1,12 @@
 {
   "name": "@maxmorozoff/drive-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sync Google Drive",
   "main": "src/index.mjs",
   "type": "module",
   "scripts": {
-    "test": "node src/index.mjs"
+    "test": "node src/index.mjs",
+    "release-it": "yarn version --patch && git push --follow-tags"
   },
   "repository": {
     "type": "git",
