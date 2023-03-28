@@ -20,7 +20,9 @@ export function getGoogleServiceKey() {
   if (env.GOOGLE_SERVICE_CLIENT_EMAIL && env.GOOGLE_SERVICE_PRIVATE_KEY) {
     return {
       client_email: env.GOOGLE_SERVICE_CLIENT_EMAIL,
-      private_key: env.GOOGLE_SERVICE_PRIVATE_KEY,
+      // 
+      // https://github.com/auth0/node-jsonwebtoken/issues/642
+      private_key: env.GOOGLE_SERVICE_PRIVATE_KEY.replace(/\\n/gm, '\n'),
     };
   }
   if (!env.GOOGLE_SERVICE_CREDENTIALS)

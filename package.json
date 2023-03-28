@@ -1,6 +1,6 @@
 {
   "name": "@maxmorozoff/drive-sync",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sync Google Drive",
   "main": "src/index.mjs",
   "type": "module",
